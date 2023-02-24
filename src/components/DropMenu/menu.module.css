@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    position: absolute;
+    background-color: var( --header-background-color);
+    height: 200px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.genres {
+    color: var(--button-color);
+    margin: 10px;
+    height: 25px;
+    border-radius: 15px;
+}
+.genres:hover {
+    color: #333;
+    cursor: pointer;
+    background-color: var(--button-color);
+    transition-delay: 0.1s;
+    box-shadow: 0 0 10px var(--button-color), 0 0 40px var(--button-color), 0 0 80px var(--button-color);
+}
+.genre {
+    list-style-type: none;
+    color: var(--button-color);
+}
+.genre:hover {
+    color: #333;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: var(--button-color);
+    transition-delay: 0.1s;
+    box-shadow: 0 0 10px var(--button-color), 0 0 40px var(--button-color), 0 0 80px var(--button-color);
+}

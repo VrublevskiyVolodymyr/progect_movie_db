@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.movie {
+    width: 23%;
+    border: darkred solid 1px;
+    border-radius: 15px;
+    margin: 10px;
+    background: #bbbbbb;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    transition: all .125s ease;
+    overflow: hidden;
+}
+.movie:hover{
+    transform: scale(1.1);
+}
+#button{
+    color: var(--button-color);
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+    color:var(--text-color)
+}
