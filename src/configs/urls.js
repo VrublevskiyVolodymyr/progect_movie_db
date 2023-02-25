@@ -7,7 +7,8 @@ const urls= {
     genres:  '/genre/movie/list',
     search_movie: (title) => `/search/movie?query=${title}`,
     byGenresId: (id)=> `/discover/movie?&with_genres=${id}`,
-    getById:(id)=> `/movie/${id}`
+    getById:(id)=> `/movie/${id}`,
+    getTrailer:(id) =>`/movie/${id}/videos`
 }
 
 export {baseURL,imageURL,urls,access}

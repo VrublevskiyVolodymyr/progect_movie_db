@@ -3,6 +3,8 @@
 }
 .movie {
     width: 23%;
+    min-width: 250px;
+    max-height: 400px;
     border: darkred solid 1px;
     border-radius: 15px;
     margin: 10px;
@@ -20,6 +22,7 @@
 #button{
     color: var(--button-color);
     border-radius: 15px;
+    margin: 10px;
 }
 .text{
     text-align: center;

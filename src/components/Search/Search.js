@@ -31,7 +31,7 @@ const Search = () => {
             <div className={css.movies}>
 
                 {searchMovie.length > 0 ?searchMovie.map(movie => <Movie key={movie.id} movie={movie}/>):
-                    (<h2>Sorry !! No Movies Found</h2>)}}
+                    (<h2>Sorry !! No Movies Found</h2>)}
 
                 {loading && <ClipLoader color={'#1BFFFF'} loading={loading} size={150}/>}
 

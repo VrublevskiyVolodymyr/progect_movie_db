@@ -7,3 +7,5 @@ export * from './SearchByGenre/SearchByGenre';
 export * from './Header/Header';
 export * from './MovieCard/MovieCard';
 export * from './StarRating/StarRating';
+export * from './Trailer/Trailer';
+
