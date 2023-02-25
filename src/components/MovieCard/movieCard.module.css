@@ -54,3 +54,11 @@
     color: var(--button-color);
     padding: 0;
 }
+#badge{
+    box-shadow: 0 0 1px var(--button-color), 0 0 2px var(--button-color), 0 0 5px var(--button-color);
+}
+#badge:hover {
+    cursor: pointer;
+    transition-delay: 0.1s;
+    box-shadow: 0 0 10px var(--button-color), 0 0 40px var(--button-color), 0 0 80px var(--button-color);
+}
